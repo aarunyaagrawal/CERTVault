@@ -70,9 +70,8 @@
 - **backend/**  
   - `server.js` – Main server  
   - `package.json` – Dependencies  
-  - **data/**  
-    - `certificates.json` – Stored certificates data  
-    - `blockchain.json` – Blockchain records  
+  - `data.json` - for stroinf data
+    
 
 - `.gitignore` – Git ignore file  
 - `README.md` – Project documentation  
