@@ -1,2 +1,138 @@
+# CERTVault - Blockchain Certificate Verification System
+# Next Gen AI Hackathon 2026 | Round 2
+# Team: Tech Titans
+
+# ============================================
+# Node.js Dependencies
+# ============================================
 node_modules/
-./node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# ============================================
+# Environment Variables
+# ============================================
+.env
+.env.local
+.env.production
+.env.development
+
+# ============================================
+# Logs
+# ============================================
+logs/
+*.log
+*.pid
+*.seed
+
+# ============================================
+# Cache
+# ============================================
+.cache/
+.parcel-cache
+.eslintcache
+.turbo/
+
+# ============================================
+# Build Outputs
+# ============================================
+dist/
+build/
+.out/
+.next/
+.nuxt/
+
+# ============================================
+# Operating System Files
+# ============================================
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# Linux
+*~
+
+# ============================================
+# IDE Files
+# ============================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# IntelliJ / WebStorm
+.idea/
+*.iml
+
+# Sublime Text
+*.swp
+*.swo
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# ============================================
+# User Uploads
+# ============================================
+uploads/
+temp/
+tmp/
+*.tmp
+
+# ============================================
+# Backup Files
+# ============================================
+*.bak
+*.backup
+*.old
+*.orig
+
+# ============================================
+# Security Keys
+# ============================================
+*.key
+*.pem
+*.cert
+*.crt
+*.p12
+
+# ============================================
+# Database Files
+# ============================================
+*.sqlite
+*.db
+*.mdb
+*.sql
+
+# ============================================
+# Test Coverage
+# ============================================
+coverage/
+.nyc_output/
+*.lcov
+
+# ============================================
+# Data Files (Local Only)
+# ============================================
+backend/data/*.json
+!backend/data/.gitkeep
+
+# ============================================
+# Miscellaneous
+# ============================================
+__MACOSX/
+*.lnk
+*.zip
+*.rar
+*.7z
