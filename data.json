@@ -1,0 +1,56 @@
+{
+  "blockchain": [
+    {
+      "index": 0,
+      "timestamp": 1775537943197,
+      "data": "GENESIS_BLOCK",
+      "previousHash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "hash": "d849201979ca8f774b43c29239d41a09fa7de7d65e1c2818cb777c90ffe9aeb3"
+    },
+    {
+      "index": 1,
+      "timestamp": 1775537982425,
+      "data": {
+        "certId": "fbc4f8f9-3291-4e82-8d72-a2c31a4c1a15",
+        "studentName": "aarunya",
+        "courseName": "core",
+        "issueDate": "2026-04-07",
+        "institution": "vit",
+        "fileName": "Aarunya photo.jpg",
+        "fileSize": 42374,
+        "mimeType": "image/jpeg",
+        "fileHash": "9425302c4eed1efda32608e882b88e1ae1a5ca1d845e841b3e5a282a0e61e2b4",
+        "issuedAt": 1775537982424
+      },
+      "previousHash": "d849201979ca8f774b43c29239d41a09fa7de7d65e1c2818cb777c90ffe9aeb3",
+      "hash": "4e1e47f5e9911019587e7eaa9a67418daaeb8c4fb4256c88d1700f3bb9565c0c"
+    }
+  ],
+  "certificates": {
+    "fbc4f8f9-3291-4e82-8d72-a2c31a4c1a15": {
+      "certId": "fbc4f8f9-3291-4e82-8d72-a2c31a4c1a15",
+      "studentName": "aarunya",
+      "courseName": "core",
+      "issueDate": "2026-04-07",
+      "institution": "vit",
+      "fileName": "Aarunya photo.jpg",
+      "fileSize": 42374,
+      "mimeType": "image/jpeg",
+      "fileHash": "9425302c4eed1efda32608e882b88e1ae1a5ca1d845e841b3e5a282a0e61e2b4",
+      "issuedAt": 1775537982424,
+      "blockIndex": 1,
+      "blockHash": "4e1e47f5e9911019587e7eaa9a67418daaeb8c4fb4256c88d1700f3bb9565c0c",
+      "verifyUrl": "http://localhost:3000/verify/fbc4f8f9-3291-4e82-8d72-a2c31a4c1a15",
+      "revoked": false,
+      "revokedAt": null,
+      "revokedReason": null
+    }
+  },
+  "revokedCertificates": [],
+  "totalVerifications": 0,
+  "metadata": {
+    "lastUpdated": "2026-04-07T04:59:42.426Z",
+    "version": "1.0.0",
+    "totalCertificatesIssued": 1
+  }
+}
