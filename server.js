@@ -22,7 +22,7 @@ const { body, param, validationResult } = require('express-validator');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-
+app.set("trust proxy", 1);
 // ==================== DATA PERSISTENCE ====================
 
 const DATA_FILE = path.join(__dirname, 'data.json');
